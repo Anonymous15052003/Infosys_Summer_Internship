@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from testapp import views
 from testapp.views import submit_form
+from testapp.views import register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('submit/', submit_form, name='submit_form'),
     path('submit/success.html/',views.success),
     path('data/',views.index),
+    path('register/',views.register),
 ]

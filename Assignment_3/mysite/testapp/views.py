@@ -25,3 +25,6 @@ def submit_form(request):
 def index(request):
     emp_list = UserInfo1.objects.all().count()
     return HttpResponse(emp_list)
+
+def register(request):
+    return render(request,'index.html')
