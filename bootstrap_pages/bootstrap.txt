@@ -1,0 +1,79 @@
+What is Bootstrap?
+
+    Bootstrap is a free front-end framework for faster and easier web development
+    Bootstrap includes HTML and CSS based design templates for forms, buttons, tables, navigation, image   and many other, as well as optional JavaScript plugins
+    Bootstrap also gives you the ability to easily create responsive designs.
+
+What is Responsive Web Design?
+
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.
+
+Why Use Bootstrap?
+
+Advantages of Bootstrap:
+
+    Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+    Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+
+    Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework
+
+    Browser compatibility: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Safari, and Opera).
+
+
+
+
+What is Responsive Web Design?
+Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones).
+
+Responsive Web Design is about using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen:
+
+Resizing an image using percent width
+Making your video respond to your screen width 
+Resizing an image using media queries 
+Changing your navigation with media queries 
+Making a responsive padding based on size 
+Making a CSS3 button glow for a loading element 
+
+
+<p class="text">Loremipsum dolor sit amet…</p> 
+<div class="img-wrap" >     
+<img alt="robots image" class="responsive" src="robots.jpg" >     
+<p>Loremipsum dolor sit amet</p> </div> 
+
+-----------------------
+p.text
+ {    
+ float:left;
+     width:60%; 
+} 
+
+--------------------------------------
+div.img-wrap
+{     
+float:right;     
+width:40%; 
+} 
+
+------------------------------------------
+
+img.responsive
+ {  
+   max-width: 100%;   
+  height: auto;
+ }
+
+---------------------------------------------
+<style>
+ video 
+{
+     max-width: 100%;   
+  height: auto; 
+} 
+</style>
+<video width="320" height="240" controls="controls">   
+  <source src="movie.mp4" type="video/mp4"> 
+    <source src="movie.ogg" type="video/ogg">  
+   Your browser does not support the video tag. 
+</video>  
+
+-----------------------------------------------------
